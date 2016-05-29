@@ -1,2 +1,13 @@
 ﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container {
+    min-height: 600px;
+}
+
+#homeImg {
+    margin-top: 5%;
 }

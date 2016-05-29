@@ -14,22 +14,29 @@
 </head>
 <body ng-app="kuzdowiczPage">
     <div class="container-fluid">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <ul id="navMenu" class="nav navbar-nav">
-                    <li class="active"><a href="#/">home</a></li>
-                    <li><a href="#/bio">bio</a></li>
-                    <li><a href="#/programmer">programmer</a></li>
-                    <li><a href="#/musician">musician</a></li>
-                    <li><a href="#/contact">contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <header>
+            <nav class="navbar navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#/">Martin Kuzdowicz</a>
+                    </div>
+                    <ul id="navMenu" class="nav navbar-nav">
+                        <li class="active"><a href="#/">home</a></li>
+                        <li><a href="#/bio">bio</a></li>
+                        <li><a href="#/programmer">programmer</a></li>
+                        <li><a href="#/musician">musician</a></li>
+                        <li><a href="#/contact">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
         <br />
-        <ng-view>
-
-        </ng-view>
-
+        <div class="text-center main-container">
+            <ng-view>
+            </ng-view>
+        </div>
+        <footer>martinkuzdowicz@gmail.com</footer>
     </div>
 </body>
 </html>

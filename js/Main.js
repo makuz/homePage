@@ -21,15 +21,25 @@ kuzdowiczPage.config(function ($routeProvider) {
 
 
 $(document).ready(function () {
-    var urlHash = window.location.hash;
-    $('#navMenu a').each(function () {
-        var thisHref = this.href;
-        if (thisHref.indexOf(urlHash)!= -1) {
-            $(this).parent().addClass('active').siblings().removeClass('active');
-        }
-    });
+    
+    setActiveClassOnNavOnPageLoad();
+  
 
     $('#navMenu li a').click(function () {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
 });
+
+function setActiveClassOnNavOnPageLoad() {
+    var urlHash = window.location.hash;
+    if (urlHash == '#/') {
+        $('#navMenu a:eq(0)').parent().addClass('active').siblings().removeClass('active');
+        return;
+    }
+    $('#navMenu a').each(function () {
+        var thisHref = this.href;
+        if (thisHref.indexOf(urlHash) != -1) {
+            $(this).parent().addClass('active').siblings().removeClass('active');
+        }
+    });
+}
