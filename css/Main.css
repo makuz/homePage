@@ -28,3 +28,22 @@
 #contactContent{
     margin-top: 10%;
 }
+
+#mainContaier {
+    background-image: url('../img/bg3.jpg');
+}
+
+.textWhite{
+    color: whitesmoke;
+}
+
+.bgWhiteWrapper {
+    background-color: whitesmoke;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.imgMusic {
+    border-radius: 100%;
+}
+
