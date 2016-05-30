@@ -11,3 +11,20 @@
 #homeImg {
     margin-top: 5%;
 }
+
+.textNiceOrange {
+    color: #D87A68 !important;
+}
+
+.circle {
+    background: red;
+    border-radius: 400px;
+    color: white;
+    height: 400px;
+    width: 400px;
+    margin-left: 30%;
+}
+
+#contactContent{
+    margin-top: 10%;
+}
