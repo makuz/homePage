@@ -5,13 +5,13 @@ kuzdowiczPage.config(function ($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: 'templates/Home.html'
     })
-    .when('/bio', {
-        templateUrl: 'templates/Bio.html'
+    .when('/about', {
+        templateUrl: 'templates/About.html'
     })
    .when('/programmer', {
-       templateUrl: 'templates/programmer/Portfolio.html'
+       templateUrl: 'templates/programmer/Programmer.html'
    }).when('/musician', {
-       templateUrl: 'templates/musician/Music.html'
+       templateUrl: 'templates/musician/Musician.html'
    })
     .when('/contact', {
         templateUrl: 'templates/Contact.html'

@@ -4,8 +4,27 @@
 }
 
 
+#img-bio {
+    width: 20%;
+}
+
 .main-container {
     min-height: 600px;
+}
+
+#spring-ico {
+    width: 1em;
+    margin-bottom: 0.2em;
+}
+
+#tomcat-ico {
+    width: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+#java-svg {
+    width: 1.5em;
+    margin-bottom: -0.2em;
 }
 
 #homeImg {
@@ -25,25 +44,31 @@
     margin-left: 30%;
 }
 
-#contactContent{
+#contactContent {
     margin-top: 10%;
 }
 
-#mainContaier {
-    background-image: url('../img/bg3.jpg');
+nav {
+    margin: 0 !important;
 }
 
-.textWhite{
+#mainContaier {
+    background-image: url('../img/2.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.textWhite {
     color: whitesmoke;
 }
 
 .bgWhiteWrapper {
-    background-color: whitesmoke;
+    background-color: rgba(229, 229, 229, 0.9);
     padding: 2%;
     border-radius: 5px;
 }
 
-.imgMusic {
-    border-radius: 100%;
+#img-music {
+    border-radius: 5px;
 }
-
