@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Martin Kuzdowicz</title>
+    <title>Martin Kuzdowicz - Software developer and musician</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -35,52 +36,60 @@
     <link rel="stylesheet" href="css/Main.css" />
 </head>
 <body ng-app="kuzdowiczPage">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand textNiceOrange" href="#/">Martin Kuzdowicz</a>
-                    <button class="navbar-toggle" data-toggle="collapse" data-target="#navItemsCollapse">
-                        <i class="icon-bar"></i>
-                        <i class="icon-bar"></i>
-                        <i class="icon-bar"></i>
-                    </button>
-                </div>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand textNiceOrange" href="#/">Martin Kuzdowicz</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navItemsCollapse">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+            </div>
 
-                <div id="navItemsCollapse" class="collapse navbar-collapse">
-                    <ul id="navMenu" class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#/">home</a></li>
-                        <li><a href="#/about">about</a></li>
-                        <li><a href="#/programmer">programmer</a></li>
-                        <li><a href="#/musician">musician</a></li>
-                        <li><a href="#/contact">contact</a></li>
-                    </ul>
-                </div>
+            <div id="navItemsCollapse" class="collapse navbar-collapse">
+                <ul id="navMenu" class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#/">home</a></li>
+                    <li><a href="#/about">about</a></li>
+                    <li><a href="#/programmer">programmer</a></li>
+                    <li><a href="#/musician">musician</a></li>
+                    <li><a href="#/contact">contact</a></li>
+                </ul>
             </div>
-        </nav>
-    <div id="mainContaier" class="container-fluid">
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="center-block main-container">
-            <ng-view>
-            </ng-view>
         </div>
-        <br />
-        <footer class="center-block">
-            <div class="text-center">
-                <a target="_blank" class="btn btn-sm btn-social btn-linkedin" href="https://www.linkedin.com/in/martinkuzdowicz">
-                    <span class="fa fa-linkedin"></span>linkedin.com/in/martinkuzdowicz
-                </a>
-                <a target="_blank" class="btn btn-sm btn-social btn-github" href="https://github.com/MartinKuzdowicz">
-                    <span class="fa fa-github"></span>github.com/MartinKuzdowicz
-                </a>
-                <a target="_blank" class="btn btn-sm btn-social btn-google" href="https://www.youtube.com/user/martinkuzdowicz">
-                    <span class="fa fa-youtube"></span>youtube.com/user/martinkuzdowicz
-                </a>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 bgimage">
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="center-block">
+                    <ng-view>
+                    </ng-view>
+
+                    <br />
+                    <footer class="center-block">
+                        <div class="text-center">
+                            <a target="_blank" class="btn btn-sm btn-social btn-linkedin" href="https://www.linkedin.com/in/martinkuzdowicz">
+                                <span class="fa fa-linkedin"></span>linkedin.com/in/martinkuzdowicz
+                            </a>
+                            <a target="_blank" class="btn btn-sm btn-social btn-github" href="https://github.com/MartinKuzdowicz">
+                                <span class="fa fa-github"></span>github.com/MartinKuzdowicz
+                            </a>
+                            <a target="_blank" class="btn btn-sm btn-social btn-google" href="https://www.youtube.com/user/martinkuzdowicz">
+                                <span class="fa fa-youtube"></span>youtube.com/user/martinkuzdowicz
+                            </a>
+                        </div>
+                        <br />
+                    </footer>
+
+                </div>
+             
             </div>
-            <br />
-        </footer>
+        </div>
     </div>
 </body>
 </html>

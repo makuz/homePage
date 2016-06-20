@@ -1,6 +1,23 @@
 ﻿body {
     margin: 0;
     padding: 0;
+     background-color: #1b2432;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.bgimage{
+    background-image: url('../img/bg-web.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 950px;
+}
+
+.anchorHorizontal {
+    width: 100%;
+    font-size: 100%;
 }
 
 
@@ -8,9 +25,6 @@
     width: 20%;
 }
 
-.main-container {
-    min-height: 600px;
-}
 
 #spring-ico {
     width: 1em;
@@ -48,16 +62,6 @@
     margin-top: 10%;
 }
 
-nav {
-    margin: 0 !important;
-}
-
-#mainContaier {
-    background-image: url('../img/2.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 .textWhite {
     color: whitesmoke;
