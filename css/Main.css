@@ -1,7 +1,7 @@
 ﻿body {
     margin: 0;
     padding: 0;
-     background-color: #1b2432;
+    background-color: #1b2432;
 }
 
 .navbar {
@@ -13,6 +13,7 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 950px;
+    border-bottom: 2px solid #808080;
 }
 
 .anchorHorizontal {
