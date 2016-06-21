@@ -15,6 +15,8 @@ kuzdowiczPage.config(function ($routeProvider) {
    })
     .when('/contact', {
         templateUrl: 'templates/Contact.html'
+    }).when('/private/introduction-video', {
+        templateUrl: 'private/IntroductionVideo.html'
     });
 
 });
