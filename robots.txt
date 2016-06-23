@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /css/
-Disallow: /js/
-Disallow: /img/
 Disallow: /pdf/
 Disallow: /favicon/
 Disallow: /App_Data/
